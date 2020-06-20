@@ -1,0 +1,15 @@
+env:
+  node: true
+  es6: true
+globals:
+  Atomics: false
+  SharedArrayBuffer: false
+parser: ''
+parserOptions:
+  ecmaVersion: 2018
+  sourceType: module
+extends:
+  - "./recommended.js"
+rules:
+  max-lines: [off]
+
